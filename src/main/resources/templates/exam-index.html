@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ExamsTest</title>
+    <link  rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>ExamTest Info</h1>
+ <h2>Exams Index page</h2>
+  <a href="/exams/post">New Exam</a>
+<table>
+    <thead>
+        <tr>
+            <th>Sr.</th>
+            <th>Exam Id</th>
+            <th>Exam Name</th>
+            <th>State</th>
+        </tr>
+        <tr th:each="exam, stat: ${exams}">
+            <td th:text="${stat.count}"></td>
+            <td th:text="${exam.examId}"></td>
+            <td th:text="${exam.examName}"></td>
+            <td th:text="${exam.state}"></td>
+        </tr>
+
+    </thead>
+</table>
+</body>
+</html>
