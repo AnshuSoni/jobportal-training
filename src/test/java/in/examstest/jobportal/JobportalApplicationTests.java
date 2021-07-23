@@ -9,5 +9,6 @@ class JobportalApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	//test oneK
 
 }
