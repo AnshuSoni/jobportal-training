@@ -1,7 +1,5 @@
-package in.examstest.jobportal.controllers;
+package in.examstest.jobportal.exams;
 
-import in.examstest.jobportal.models.Examination;
-import in.examstest.jobportal.services.ExamService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

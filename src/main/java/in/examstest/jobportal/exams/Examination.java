@@ -1,4 +1,4 @@
-package in.examstest.jobportal.models;
+package in.examstest.jobportal.exams;
 
 import javax.persistence.*;
 

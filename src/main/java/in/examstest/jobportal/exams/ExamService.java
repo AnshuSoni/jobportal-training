@@ -1,7 +1,7 @@
-package in.examstest.jobportal.services;
+package in.examstest.jobportal.exams;
 
-import in.examstest.jobportal.models.Examination;
-import in.examstest.jobportal.repository.ExaminationRepository;
+import in.examstest.jobportal.exams.Examination;
+import in.examstest.jobportal.exams.ExaminationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

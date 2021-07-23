@@ -1,6 +1,6 @@
-package in.examstest.jobportal.repository;
+package in.examstest.jobportal.exams;
 
-import in.examstest.jobportal.models.Examination;
+import in.examstest.jobportal.exams.Examination;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
